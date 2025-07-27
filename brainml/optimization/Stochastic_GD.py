@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from Brain.utils import __lr_schedule
+from brainml.utils import __lr_schedule
 
 def Stochastic_GD(X,y,learning_rate,epochs, tol):
     theta = np.ones(X.shape[1]) # (p+1,)

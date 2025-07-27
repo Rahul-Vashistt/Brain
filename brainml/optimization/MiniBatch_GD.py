@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from Brain.utils import __lr_schedule
+from brainml.utils import __lr_schedule
 
 def Mini_Batch_GD(X,y,learning_rate,epochs,batch_size,n_batches, tol):
     theta = np.ones(X.shape[1]) # (p+1,)

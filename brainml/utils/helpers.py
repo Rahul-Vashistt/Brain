@@ -1,4 +1,4 @@
-from Brain.method import optimizers
+from brainml.method import optimizers
 import numpy as np
 import pandas as pd
 
